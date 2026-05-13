@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class PaymentService {
 
     public boolean processPayment(double amount) {
-        // Simulating payment logic
+        // Simulating payment
         return amount > 0;
     }
 }
