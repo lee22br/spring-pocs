@@ -24,7 +24,7 @@ class WebSocketScopeTest {
 
     @AfterEach
     void tearDown() {
-        // Clean up the mocked WebSocket session
+        // Clean up the mocked WebSocket session.
         SimpAttributesContextHolder.resetAttributes();
     }
 
