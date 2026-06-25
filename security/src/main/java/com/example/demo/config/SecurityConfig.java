@@ -13,7 +13,6 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        // You do not need to "create" or "inject" HttpSecurity here.
         // Spring calls this method and provides the HttpSecurity instance.
         http.csrf(csrf -> csrf
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
